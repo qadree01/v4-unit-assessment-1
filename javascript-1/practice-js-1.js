@@ -115,6 +115,16 @@ const middleNums = numbers.slice(1, 4)
 */
 
 //CODE HERE
+let me = {
+  firstName:"Qadree",
+  state:"Texas",
+  age:43
+}
+  
+me.greeter = function() {
+    'Hello! My name is me.firstName and I live in me.state';
+  }
+
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -130,6 +140,13 @@ const middleNums = numbers.slice(1, 4)
 */
 
 // CODE HERE
+function bigOrSmall() {
+  let answers = [ ]
+  for(let i = 0; i < arr.length; i++) {
+    answers +=arr[i]
+  }
+  return answers;
+}
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -142,6 +159,13 @@ const middleNums = numbers.slice(1, 4)
 */
 
 //CODE HERE
+function arrayReverser() {
+  let reversed = []
+  for(let i = arr.length - 1; i >= 0; i--) {
+    arr[i] -=1;
+  }
+  return reversed;
+}
 
 //////////////////PROBLEM 14////////////////////
 
