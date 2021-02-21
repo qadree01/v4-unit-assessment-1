@@ -1,17 +1,20 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+//CODE HERE
+let myName = "Qadree"; 
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
+var faveNum = 1;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -20,6 +23,10 @@
 */
 
 //CODE HERE
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -30,6 +37,13 @@
 */
 
 //CODE HERE
+function trueOrFalse(data) {
+  if (data != false) {
+    return true;
+  } else if (data != true) {
+    return false;
+  }
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -40,6 +54,13 @@
 */
 
 //CODE HERE
+function oddChecker(num) {
+  if (num / 2 % 1) {
+    return 'the number is odd';
+  } else {
+      return 'the number is even';
+  }
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -49,6 +70,9 @@
 */
 
 //CODE HERE
+function iLove(name, love) {
+  return `${name} loves ${love}`
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -57,11 +81,13 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
+const colorCopy = faveColors.slice()
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+colorCopy.push('gold')
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -72,6 +98,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+const middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 /*
